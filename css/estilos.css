@@ -70,8 +70,8 @@ ul {
     position: absolute;
     right: 0;
     font-size: 25px;
-    color: #333333;
-    background-color: #fff;
+    color: #fff;
+    background-color: #00bcd1;
     width: 15%;
     height: 85%;
     align-self: center;
@@ -98,4 +98,78 @@ ul {
     margin: 0 auto;
     letter-spacing: .5;
     width: 90%;
+}
+/***SECTION MISION VISION VALORES
+**********************************************/
+.section-mision-vision-valores {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr 1fr 3fr;
+    padding: 3%;
+}
+.h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+    letter-spacing: 1px;
+    grid-row: 1/2;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6%;
+}
+.caracteristicas {
+    width: 100%;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6%;
+}
+.caracteristicas p {
+    text-transform: capitalize;
+}
+.mision,
+.vision,
+.valor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 33.3333%;
+    border-bottom: 0.5px solid #999;
+    cursor: pointer;
+}
+.seleccionado {
+    color: #ef6926;
+    border-top: 3px solid #ef6926;
+    border-left: 3px solid #ef6926;
+    border-right: 3px solid #ef6926;
+}
+ion-icon[name="cog"] {
+    vertical-align: middle;
+}
+.caracteristica-texto {
+    display: flex;
+    flex-direction: column;
+}
+.h4 {
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.texto-caracteristica {
+    color: #777;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    font-size: 17px;
+    margin-bottom: 6%;
+}
+
+.figure {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
 }
