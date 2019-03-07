@@ -117,6 +117,7 @@ ul {
     display: flex;
     flex-direction: column;
     margin-bottom: 6%;
+    text-align: center;
 }
 .caracteristicas {
     width: 100%;
@@ -235,12 +236,15 @@ img {
 }
 .service-sea {
     color: purple;
+    font-size: 40px;
 }
 .service-surfing {
     color: orangered;
+    font-size: 40px;
 }
 .service-diving {
     color: blue;
+    font-size: 40px;
 }
 /***SECTION CHOOSE US
 ************************************************/
@@ -297,5 +301,54 @@ img {
     align-self: center;
     justify-self: center;
     grid-column: 1/2;
-    margin-left: 15%;
+    text-align: center;
+}
+/***SECTION CLUB FACTS
+***********************************************/
+.section-club-facts {
+    width: 100%;
+    padding: 3%;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr repeat(4, 2fr);
+    grid-gap: 30px;
+}
+.texto-club-facts {
+    line-height: 1.7;
+    font-size: 17px;
+    color: #777;
+    letter-spacing: 1px;
+    text-align: center;
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.div-fact {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 6px 6px 10px  rgb(210, 217, 238);
+}
+.div-fact:last-child {
+    margin-bottom: 20%;
+}
+.h4 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.span-number-fact {
+    color: #ef6926;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.p-fact {
+    line-height: 1.8;
+    color: #777;
+    font-size: 17px;
 }
