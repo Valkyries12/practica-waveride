@@ -6,7 +6,7 @@ const texto_caracteristica = document.querySelector(".texto-caracteristica");
 //muestro u oculta el menu en version mobile
 menu_icon.addEventListener("click", function() {
     let ul_nav = document.querySelector(".ul-nav");
-    ul_nav.classList.toggle("invisible");
+    ul_nav.classList.toggle("visible");
 });
 
 

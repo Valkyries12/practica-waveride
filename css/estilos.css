@@ -53,7 +53,7 @@ html {
     color: #00bcd1;
 }
 .ul-nav {
-    display: flex;
+    display: none;
     flex-direction: column;
     position: absolute;
     width: 100%;
@@ -80,6 +80,9 @@ html {
 }
 .invisible {
     display: none;
+}
+.visible {
+    display: flex;
 }
 .h1 {
     color: #fff;
