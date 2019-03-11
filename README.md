@@ -2,4 +2,4 @@
 
 Esta **práctica** simula  una página de servicios de surfing, buceo entre otras actividades.
 
-![waveride](https://i.imgur.com/aHHz7Gz.gif)
+![waveride](https://media.giphy.com/media/5z7AowoJPLdaj6Rrsy/giphy.gif)
