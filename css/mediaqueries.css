@@ -267,7 +267,37 @@
         align-self: center;
     }
     .header__p {
-        font-size: 1rem;
+        font-size: 1.02rem;
         width: 65%;
+    }
+    /***SECTION MISION VISION VALORES
+    ********************************************/
+    .section-mision-vision-valores {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .5fr .3fr 1fr;
+        grid-column-gap: 20px;
+    }
+    .h2 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: start;
+        display: block;
+        font-size: 1.7rem;
+    }
+    .caracteristicas {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .caracteristica-texto {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        justify-self: center;
+    }
+    .section-mision-vision-valores .figure {
+        grid-column: 2/3;
+        grid-row: 1/4;
+    }
+    .texto-caracteristica {
+        font-size: 1.02rem;
     }
 }
