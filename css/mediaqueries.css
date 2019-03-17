@@ -300,4 +300,31 @@
     .texto-caracteristica {
         font-size: 1.02rem;
     }
+
+    /***SECTION SERVICES
+    *********************************************/
+    .section-services {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:  1fr 1fr;
+    }
+    .section-services .h2 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        align-self: center;
+    }
+    .texto-services {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        font-size: 1.02rem;
+    }
+    .service-icon {
+        font-size: 1.9rem;
+    }
+    .div-service .h3 {
+        font-size: 1.3rem;
+    }
+    .service-descrip {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
 }
