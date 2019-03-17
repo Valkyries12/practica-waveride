@@ -218,3 +218,56 @@
         font-size: 0.9rem;
     }
 }
+
+
+/***********************************************/
+/**************A PARTIR DE LOS 992PX***********/
+/**********************************************/
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 17px;
+    }
+    /***HEADER
+    ********************************/
+    .header {
+        height: 60vh;
+        grid-template-rows: 1fr 30% 1fr 1fr;
+    }
+    .nav-header {
+        justify-content: space-between;
+    }
+    .span-logo {
+        margin-bottom: 25%;
+        margin-top: 25%;
+        font-size: 2rem;
+    }
+    .div-logo {
+        width: 25%;
+    }
+    .div-logo__icon {
+        font-size: 2.5rem;
+    }
+    .ul-nav {
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        height: 100%;
+        background-color: transparent;
+        position: unset;
+        justify-content: space-around;
+    }
+    .menu-icon {
+        display: none;
+    }
+    .ul-nav__links {
+        color: #fff;
+    }
+    .h1 {
+        font-size: 2.9rem;
+        align-self: center;
+    }
+    .header__p {
+        font-size: 1rem;
+        width: 65%;
+    }
+}
