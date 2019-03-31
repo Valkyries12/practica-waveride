@@ -389,4 +389,32 @@
         grid-row: 3/4;
         grid-column: 4/5;
     }
+    /***SECTION SUBSCRIBE
+    *******************************************/
+    .section-subscribe {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto auto auto;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    .p-suscribe {
+        grid-column: 1/2;
+    }
+    .section-subscribe .h2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        align-self: start;
+        margin-top: 5%;
+    }
+    .texto-subscribe-form {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 13%;
+    }
+    .form {
+        grid-column: 2/3;
+        grid-row: 1/5;
+        align-self: center;
+    }
 }
