@@ -230,7 +230,7 @@
     /***HEADER
     ********************************/
     .header {
-        height: 60vh;
+        height: 70vh;
         grid-template-rows: 1fr 30% 1fr 1fr;
     }
     .nav-header {
@@ -331,7 +331,7 @@
     /***SECTION CHOOSE US
     *************************************************/
     .wrapper-choose-us {
-        height: 35vh;
+        height: 42vh;
         grid-template-rows: repeat(4, 21%);
     }
     .wrapper-choose-us .h2 {
@@ -351,5 +351,42 @@
         font-size: 2.5rem;
         align-content: flex-start;
         width: 75%;
+    }
+    /***SECTION CLUB FACTS
+    ******************************************/
+    .section-club-facts {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: .3fr .5fr 1fr;
+    }
+    .section-club-facts .h2 {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        justify-self: center;
+    }
+    .texto-club-facts {
+        grid-column: 1/-1;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: flex-start;
+        width: 70%;
+    }
+    .div-fact {
+        height: 100%;
+    }
+    .div-fact:nth-of-type(1) {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .div-fact:nth-of-type(2) {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+    .div-fact:nth-of-type(3) {
+        grid-row: 3/4;
+        grid-column: 3/4;
+    }
+    .div-fact:nth-of-type(4) {
+        grid-row: 3/4;
+        grid-column: 4/5;
     }
 }
